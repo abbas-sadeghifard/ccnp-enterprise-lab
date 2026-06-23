@@ -5,7 +5,9 @@ The primary objective of this project is to implement, verify, and troubleshoot 
 
 ## Topology
 The lab is designed using EVE-NG. The topology features a hierarchical campus (Core/Distribution/Access), multi-site branch connectivity, and a simulated Internet edge with redundant ISP connections.
-*   **Diagram:** See `/topology/topology-main.png`
+![Network Topology](topology/topology-main.png)
+*Figure 1: Main Network Topology*
+
 
 ## What Was Configured
 Key technologies implemented in this lab include:
