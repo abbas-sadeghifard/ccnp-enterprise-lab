@@ -8,13 +8,19 @@ The lab is designed using EVE-NG. The topology features a hierarchical campus (C
 ![Network Topology](topology/Topology.png)
 
 
-## ⚙️ What Was Configured
-Key technologies implemented in this lab include:
-*   **Layer 2:** VLANs, Trunking, EtherChannel (L2/L3), STP/RSTP/MSTP.
-*   **Layer 3:** OSPFv2, EIGRP, Route Redistribution, HSRP.
-*   **WAN:** DMVPN Phase 2, GRE, Site-to-Site IPsec (IKEv1/v2).
-*   **Security:** ACLs, Port Security, DHCP Snooping, ZBFW, CoPP.
-*   **Services:** DHCP Server/Relay, NAT/PAT, IP SLA.
+## 🏗️ Pre-configured Environment
+The lab environment is provided with the following pre-existing configurations and baseline connectivity:
+* **Topology:** Physical cabling and node placement (Core, Distribution, Access, and ISP routers) are pre-defined in the `.unl` project file.
+* **WAN/ISP Links:** WAN connectivity and ISP-side interface parameters are pre-provisioned, serving as the demarcation point for internal enterprise routing.
+* **Base Connectivity:** Initial interface assignments are set to facilitate immediate lab entry and testing.
+
+## 🚀 Lab Objectives & Implementation Scope
+This lab focuses on the configuration, implementation, and verification of the following enterprise technologies:
+* **Layer 2:** VLANs, Trunking, EtherChannel (L2/L3), STP/RSTP/MSTP.
+* **Layer 3:** OSPFv2, EIGRP, Route Redistribution, HSRP.
+* **WAN:** DMVPN Phase 2, GRE, Site-to-Site IPsec (IKEv1/v2).
+* **Security:** ACLs, Port Security, DHCP Snooping, ZBFW, CoPP.
+* **Services:** DHCP Server/Relay, NAT/PAT, IP SLA.
 
 ## 📁 Repository Contents
 ```text
