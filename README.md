@@ -18,7 +18,7 @@ The lab environment is provided with the following pre-existing configurations a
 This lab is a comprehensive enterprise infrastructure project designed to cover advanced CCNP-level implementation, verification, and troubleshooting. The scope is divided into the following technical domains:
 
 ### 1. ⚡ Switching & Layer 2 Core Infrastructure
-*   **VLAN & Trunking:** Strategic VLAN design, VTPv2/v3 management, 802.1Q trunking, and DTP hardening (`switchport nonegotiate`).
+*   **VLAN & Trunking:** Strategic VLAN design, VTPv2/v3 management, 802.1Q trunking, and DTP hardening .
 *   **High Availability & Loop Prevention:** EtherChannel (L2/L3 via LACP), RSTP/MSTP (Root Bridge selection, PortFast, BPDU Guard), and UDLD.
 *   **VTPv3 Integration:** Advanced MSTP configuration and VLAN structure management.
 
