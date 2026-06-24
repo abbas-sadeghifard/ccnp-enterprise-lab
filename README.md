@@ -4,7 +4,7 @@
 The primary objective of this project is to implement, verify, and troubleshoot a complex Enterprise network environment. This lab covers advanced routing, switching, security, and automation tasks required for CCNP Enterprise certification (ENCOR + ENARSI).
 
 ## 🗺️ Topology
-The lab is designed using EVE-NG. The topology features a hierarchical campus (Core/Distribution/Access), multi-site branch connectivity, and a simulated Internet edge with redundant ISP connections.
+The lab is designed using EVE-NG. The topology features a hierarchical campus (Core/Distribution/Access), **multi-site branch connectivity**, and a simulated Internet edge with **redundant ISP connections**.
 ![Network Topology](topology/Topology.png)
 
 
