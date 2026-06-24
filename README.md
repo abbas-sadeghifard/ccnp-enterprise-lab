@@ -58,9 +58,56 @@ This lab is a comprehensive enterprise infrastructure project designed to cover 
 ```
 ## 🚀 Planned Improvements
 
-- [ ] Implement Python/Netmiko scripts for automated configuration backups.
-- [ ] Add network monitoring integration (SNMP and Syslog).
-- [ ] Complete IPv6 dual-stack migration.
+This roadmap outlines the short‑term improvements planned for the lab topology, focusing on enterprise network stability, security hardening, and operational management using Ansible.
+
+### Phase 1: Core Protocol Tuning & Security Baseline
+- **Infrastructure Hardening**
+  - Implement Management Plane Protection (MPP)
+  - Enforce SSHv2 access and AAA authentication models
+  - Configure local logging for operational visibility
+
+- **Routing Optimization**
+  - Tune OSPF/EIGRP/BGP timers to improve convergence
+  - Implement route filtering using prefix-lists and route-maps
+  - Simulate ISP-scale routing control scenarios
+
+- **Layer 2 Security**
+  - Deploy Port-Security on access interfaces
+  - Implement DHCP Snooping
+  - Enable Dynamic ARP Inspection (DAI)
+
+---
+
+### Phase 2: Advanced Network Services & Hardening
+- **Perimeter Security**
+  - Configure Zone-Based Firewall (ZBF) on IOS-XE routers
+  - Implement NAT/PAT for simulated edge connectivity
+
+- **Redundancy Protocols**
+  - Deploy First Hop Redundancy Protocols (HSRP / VRRP)
+  - Implement object tracking for failover scenarios
+
+- **Network Access Control**
+  - Configure 802.1X authentication on access switches
+  - Implement MAC Authentication Bypass (MAB)
+
+---
+
+### Phase 3: Operational Automation (Ansible)
+- **Control Node Integration**
+  - Deploy a Linux control node for Ansible management
+  - Manage IOS/IOS-XE devices via SSH
+
+- **State Auditing**
+  - Develop playbooks to verify operational state:
+    - Interface status
+    - OSPF neighbor consistency
+    - Routing table validation
+
+- **Configuration Lifecycle Management**
+  - Automate daily configuration backups
+  - Perform bulk configuration changes on switch ports
+  - Use Ansible modules such as `ios_config` and `ios_command`
 
 ## 🛠️ Tools Used
 
