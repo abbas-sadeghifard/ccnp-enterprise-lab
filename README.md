@@ -15,12 +15,37 @@ The lab environment is provided with the following pre-existing configurations a
 * **Base Connectivity:** Initial interface assignments are set to facilitate immediate lab entry and testing.
 
 ## 🚀 Lab Objectives & Implementation Scope
-This lab focuses on the configuration, implementation, and verification of the following enterprise technologies:
-* **Layer 2:** VLANs, Trunking, EtherChannel (L2/L3), STP/RSTP/MSTP.
-* **Layer 3:** OSPFv2, EIGRP, Route Redistribution, HSRP.
-* **WAN:** DMVPN Phase 2, GRE, Site-to-Site IPsec (IKEv1/v2).
-* **Security:** ACLs, Port Security, DHCP Snooping, ZBFW, CoPP.
-* **Services:** DHCP Server/Relay, NAT/PAT, IP SLA.
+This lab is a comprehensive enterprise infrastructure project designed to cover advanced CCNP-level implementation, verification, and troubleshooting. The scope is divided into the following technical domains:
+
+### 1. Switching & Layer 2 Core Infrastructure
+*   **VLAN & Trunking:** Strategic VLAN design, VTPv2/v3 management, 802.1Q trunking, and DTP hardening (`switchport nonegotiate`).
+*   **High Availability & Loop Prevention:** EtherChannel (L2/L3 via LACP), RSTP/MSTP (Root Bridge selection, PortFast, BPDU Guard), and UDLD.
+*   **VTPv3 Integration:** Advanced MSTP configuration and VLAN structure management.
+
+### 2. Routing & Traffic Engineering
+*   **Inter-VLAN & Redundancy:** L3 SVI and Router-on-a-stick, HSRP (active role management, timer tuning, MD5 authentication).
+*   **Advanced Routing:** OSPFv2 and EIGRP optimization (Area design, Passive interfaces, Metric/Cost/Delay manipulation, Stub Areas, and Redistribution with route filtering/tagging).
+*   **Traffic Control:** Policy-Based Routing (PBR) and Control Plane activation, Static/Floating routes with IP SLA and Track Object logic.
+
+### 3. WAN, VPN & Tunneling
+*   **Tunneling:** GRE Tunneling (MTU/MSS optimization).
+*   **DMVPN:** Phase 2 deployment utilizing FVRF (Front-Door VRF).
+*   **IPsec VPN:** Comprehensive implementations (IKEv1/v2, Crypto Maps, IPsec Profiles, GRE over IPsec) including DoS protection for IKEv2.
+*   **Connectivity:** Layer 2/Layer 3 WAN Cloud integration and IP addressing design.
+
+### 4. Enterprise Security & Hardening
+*   **Data Plane Security:** Port Security (Static/Sticky/Dynamic), DHCP Snooping, Dynamic ARP Inspection (DAI), and VLAN ACLs.
+*   **Control Plane & Edge Security:** ZBFW (Zone-Based Firewall), CoPP (Control Plane Policing), uRPF, and RBAC (Role-Based Access Control).
+*   **NAT/PAT:** Redundant Source NAT/PAT implementation with BGP and non-BGP internet scenarios using public pools.
+
+### 5. BGP & Internet Edge
+*   **eBGP:** Multi-homed internet redundancy, Route Filtering, BGP Authentication, and Attribute manipulation for asymmetric traffic control.
+
+### 6. Operations, Automation & Management
+*   **Automation:** Ansible infrastructure (Playbooks with Jinja2 templates, YAML variables, and native IOS modules).
+*   **Monitoring & Observability:** SNMPv2c/v3 (Traps, PRTG integration), Syslog, and IP SLA probes.
+*   **Maintenance:** EEM (Embedded Event Manager) for automated CLI actions, Archive service for FTP-based backups, and Auto-Recovery for Err-Disable states.
+
 
 ## 📁 Repository Contents
 ```text
