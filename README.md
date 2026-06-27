@@ -116,18 +116,6 @@ This roadmap outlines the short‑term improvements planned for the lab topology
 - **Automation:** Ansible, Jinja2
 - **Version Control:** Git and GitHub
 
-## EVE-NG Lab Package
-Part 1:
-https://my.uupload.ir/dl/n2J2dY6e
-Part 2:
-https://my.uupload.ir/dl/ODwr7rWx
-Part 3:
-https://my.uupload.ir/dl/eyJZ5kXD
-
-## EVE-Workshop-v6 Setup Guide
-link:
-https://my.uupload.ir/p/v9VG5eYr
-
 ## ℹ️ About This Project
 
 This lab is a professional-grade study environment designed to simulate real-world enterprise network scenarios and operational constraints. It provides hands-on experience in deploying, troubleshooting, optimizing, and maintaining enterprise infrastructure while preparing for the CCNP Enterprise certification.
