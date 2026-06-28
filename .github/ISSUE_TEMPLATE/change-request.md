@@ -1,21 +1,19 @@
 ---
-name: "🚀 Network Change Request (CR)"
-description: "Standard template for network infrastructure changes, LACP, VLANs, etc."
-title: "[CR] - "
-labels: ["network-change", "implementation"]
-assignees: []
+name: Network Change Request
+about: Standard template for infrastructure changes
+title: '[CR]: '
+labels: ['network-change', 'documentation']
 ---
 
 # Enterprise Network Change Request (CR)
-*(Please fill out this technical document before implementation)*
 
-## I. Change Overview (Überblick)
+## I. Change Overview
 - **Change ID:** 
 - **Requestor:** Abbas Sadeghifard
 - **Priority:** [Low / Medium / High / Critical]
 - **Summary:** 
 
-## II. Implementation Plan (Schritt-für-Schritt)
+## II. Implementation Plan
 ### CLI Commands:
 ```bash
-# Enter commands here
+# Add your configuration commands here
